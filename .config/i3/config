@@ -98,6 +98,8 @@ bindsym $mod+e layout toggle split
 # toggle tiling / floating
 bindsym $mod+Shift+space floating toggle
 
+bindsym Control+Shift+space exec ibus emoji utility
+
 # change focus between tiling / floating windows
 # bindsym $mod+space focus mode_toggle
 
@@ -187,4 +189,7 @@ bar {
         status_command i3status
 }
 
+# Emoji picker
+exec --no-startup-id bash -c "cd /home/rick/workspace/Emote && pipenv run start"
+exec --no-startup-id imwheel -b "4 5"
 exec --no-startup-id picom -b
