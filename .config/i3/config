@@ -99,7 +99,7 @@ bindsym $mod+e layout toggle split
 bindsym $mod+Shift+space floating toggle
 
 bindsym Control+Shift+space exec ibus emoji utility
-bindsym $mod+Shift+l exec --no-startup-id i3lock --color "#232323"
+bindsym $mod+Shift+l exec --no-startup-id i3lock --color "#232323" && sleep 2 && xset s activate
 
 # change focus between tiling / floating windows
 # bindsym $mod+space focus mode_toggle
