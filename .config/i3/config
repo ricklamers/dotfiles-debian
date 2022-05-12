@@ -192,5 +192,5 @@ bar {
 
 # Emoji picker
 exec --no-startup-id bash -c "cd /home/rick/workspace/Emote && pipenv run start"
-exec --no-startup-id imwheel -b "45"
+exec --no-startup-id imwheel
 exec --no-startup-id picom -b

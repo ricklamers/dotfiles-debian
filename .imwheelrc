@@ -1,5 +1,5 @@
 # Speed up scrolling for chromium and pass unchanged for zoom
-".*brave-browser*"
+".*brave*"
     None, Up, Button4, 5
     None, Down, Button5, 5
     Shift_L,   Up,   Shift_L|Button4, 5
